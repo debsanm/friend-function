@@ -10,7 +10,7 @@ A display_balance member function that is declared const because it only reads t
 
 A friend function named apply_interest that calculates and applies a simple interest to the account balance. This function must be a friend so it can directly modify the private balance member.
 
-Requirements
+# Requirements
 
 The BankAccount class should have a private string member for account_holder and a private double member for balance.
 
@@ -22,7 +22,7 @@ The apply_interest function must be declared as a friend of the BankAccount clas
 
 The apply_interest function should accept a BankAccount object reference and an interest rate (double) as parameters.
 
-In your main function:
+# In your main function:
 
 Create a BankAccount object.
 
